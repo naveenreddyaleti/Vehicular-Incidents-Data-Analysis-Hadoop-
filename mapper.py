@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python
 import sys
 words=[]
@@ -12,8 +11,3 @@ for line in sys.stdin:
     for word in words:
                  if len(word) >0 and word[0] !="\"" and word[-1] !="\"":
                       print '%s\t%s'%(word,1)
-
-
-
-
-
